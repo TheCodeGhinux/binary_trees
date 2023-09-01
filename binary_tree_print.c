@@ -28,6 +28,14 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	return new_node;
 }
 
+/*
+ * binary_tree_insert_left - To store each level recursively in an array of strings
+ *
+ * @parent: Pointer to the node
+ * @value: Value of node
+ * Return: printed tree length
+ */
+
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new_node;
@@ -54,6 +62,14 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 
 	return new_node;
 }
+
+/*
+ * binary_tree_insert_right - To store each level recursively in an array of strings
+ *
+ * @parent: Pointer to the node
+ * @value: Value of node
+ * Return: printed tree length
+ */
 
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
