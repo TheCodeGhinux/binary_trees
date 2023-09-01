@@ -3,7 +3,7 @@
 
 /**
  *binary_tree_insert_left - To create a binary node
-							as a left child
+ *	as a left child
  *@parent: Pointer to the parent of node to insert
  *@value: Value of new node
  *Return: Pointer of new node else Null on error
