@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /*
- * print_t - To store each level recursively in an array of strings
+ * binary_tree_node - To store each level recursively in an array of strings
  *
- * @tree: Pointer to the node
+ * @parent: Pointer to the node
  * @offset: Offset to print
  * @depth: Depth of node
  * @s: Buffer of node
- *
+ * @value: Value of node
  * Return: printed tree length
  */
 
